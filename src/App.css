@@ -1,38 +1,587 @@
-.App {
+
+
+button {
+  padding: 10px 15px;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+
+/* NavBar Component */
+.main-navbar{
+  width: 95vw;
+  margin: auto;
+}
+
+.main-navbar .navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .brand-name a{
+  text-decoration: none;
+}
+
+.navbar .brand-name h1{
+  letter-spacing: 0.2rem;
+  color: gray;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar .brand-name h1 span{
+  color: red;
+  font-size: larger;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar .sections-container .sections{
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  font-size: larger;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar .sections-container .sections a{
+  text-decoration: none;
+  color: black;
+}
+
+.navbar .other-nav-items .cart{
+  display: flex;
+  align-items: flex-end;
+}
+
+.navbar .other-nav-items .cart img{
+  height: 32px;
+}
+
+.navbar .other-nav-items .cart p{
+  background-color: red;
+  padding: 3px;
+  border-radius:100% ;
+  color: white;
+  font-weight: 500;
+}
+.navbar .other-nav-items{
+  display: flex;
+  width: 10vw;
+  justify-content: space-around;
+  align-items: flex-end;
+  /* border: 1px solid black; */
+}
+
+.navbar .other-nav-items .profile img{
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: -2px;
+}
+
+/* NavBar Component */
+
+/* Content Component */
+  /* Homepage Component */
+.App .cover{
+  background-image: url("./img/shoecover.jpg");
+  background-size: contain;
+  height: 60vh;
+  width: 100vw;
+  text-align: center;
+}
+
+.cover .intext{
+  color: gray;
+}
+
+
+.cover .intext .header{
+  font-size: 2.5rem;
+  padding: 20px;
+  margin-top:0 ;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
+}
+
+.cover p span{
+  font-size: 3rem;
+  color: crimson;
+  font-weight: 700;
+}
+
+.App .categories-container{
+  width: 60vw;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.categories-container .category{
+  width: 30%;
+  margin-top: 20px;
+  /* border: 3px solid rgb(128, 128, 128, 50%); */
+}
+.categories-container .category img{
+  width: 100%;
+  height: 300px;
+}
+
+.categories-container .category p{
+  font-size: 1.2rem;
+}
+
+.App .featured-container {
+  width: 60vw;
+  margin: auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.featured-container h3{
+  text-transform: uppercase;
+  color: rgb(128, 128, 128, 70%);
+  font-size: 2rem;
+  letter-spacing: 1rem;
+}
+
+.featured-container .featured-card{
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.featured-card .featured {
+  width: 25%;
+  margin: 10px;
+}
+
+.featured-card .featured img{
+  width: 100%;
+  height: 260px;
+}
+.featured-card .featured a{
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: black;
+  font-weight: 500;
+}
+
+.featured-card .featured a:hover{
+  border-bottom: 3px solid black;
+}
+
+
+
+  /* Homepage Component */
+
+  /* Product Page Component */
+
+  .productpage-container{
+    width: 80vw;
+    margin: auto;
+    
+  }
+  
+  .productpage-container .heading{
+    background-color: rgb(139, 69, 19, 90%);
+    color: white;
+    height: 15vh;
+    position: relative; 
+    margin-top: 30px;
+  }
+
+  .productpage-container .heading h1{
+    width: 20%;
+    text-align: center;
+    position: absolute;
+    top: 40px;
+    left: 5px;
+  }
+
+  .productpage-container .product-display{
+    height: 100vh;
+    display: flex;
+  }
+
+  .product-display .shopby-form form{
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    width: 12vw;
+    justify-content: space-around;
+  }
+
+  form select{
+    padding: 10px 20px;
+    /* border-radius: 20px; */
+    background-color: transparent;
+    color: black;
+    border-bottom:1px solid black;
+    font-weight: 500;
+  }
+
+  .product-display .product-list{
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .product-display .product-list .product{
+    width: 300px;
+    margin: 10px;
+  }
+
+  .product-display .product-list .product img{
+    width: 100%;
+    height: 260px;
+  }
+  
+  .product-display .product-list .product a{
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    font-weight: 600;
+    letter-spacing: 0.15rem;
+  }
+
+  .product-display .product-list .product a:hover{
+    text-decoration: underline;
+  }
+
+
+  /* Product Page Component */
+
+  /* SingleProduct Page Component */
+  .single-product{
+    height: 100vh;
+    display: flex;
+    width: 60vw;
+    margin: auto;
+    justify-content: space-evenly;
+    
+  }
+
+  .single-product .picture{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .single-product .picture .main-picture{
+    height: 40vh;
+  }
+
+  .picture .main-picture .main-pic{
+    height: 100%;
+    width: 100%;
+  }
+
+  .single-product .picture .extra-picture {
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .single-product .picture .extra-picture img{
+    height: 100%;
+    width: 12vw;
+    margin-top: 10px;
+  }
+
+  .product-options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .product-options div{
+    border: 2px solid black;
+    padding: 0px 30px;
+    margin-top: 10px;
+  }
+  .product-options .true{
+      background-color: green;
+      color: white;
+      border: transparent;
+      font-weight: 500;
+  }
+
+  .description form input{
+    width: 45px;
+    height: 30px;
+  }
+
+  .description form button{
+    display: block;
+    margin-top: 10px;
+    padding: 10px 50px;
+    background-color: white;
+    color: black;
+  }
+
+  .description form button:hover{
+    background-color: crimson;
+    color: white;
+    border: 2px solid transparent;
+  }
+
+  .alert{
+    color: rgb(255, 0, 0, 70%);
+  }
+
+ 
+  .alert-msg{
+    visibility: hidden;
+  }
+
+  /* SingleProduct Page Component */
+
+  /* CardPopup Page Component */
+
+  .cart-popup{
+    height: fit-content;
+    width: 350px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    position: absolute;
+    right: 10px;
+  }
+
+  .cart-popup h2{
+    margin: auto;
+    letter-spacing: 0.2rem;
+  }
+  .cart-popup .cart-card{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3px;
+    align-content: flex-start;
+  }
+
+  .cart-card div{
+    width: 90px;
+    height: 75px;
+  }
+
+  .cart-card img{
+    width: 100%;
+    height: 100%;
+  }
+  .cart-popup a{
+    text-decoration: none;
+    margin: auto;
+    margin-top: 15px;
+    border: 1px solid gray;
+    padding: 2px 100px 2px 100px ;
+    font-size: x-large;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+
+  /* CardPopup Page Component */
+/* Content Component */
+
+
+/* Cart Page Component */
+.cart-container{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100vh;
+  margin-top: 100px;
 }
 
-.App-link {
-  color: #61dafb;
+.cart-container .cart table{
+  width: 35vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+table tr{
+  text-align: left;
 }
+
+table th{
+  text-transform: uppercase;
+  font-size: larger;
+  color: rgb(128, 128, 128, 70%);
+}
+
+table tr .product{
+  display: flex;
+  align-items: flex-end;
+}
+
+table tr .product img{
+  width: 90px;
+  height: 90px;
+  margin-right: 8px;
+}
+
+.cart-container .order-summary{
+  margin-left: 50px;
+  width: 12vw;
+}
+
+.cart-container .order-summary h3{
+  text-transform: uppercase;
+}
+
+.cart-container .order-summary .total{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: larger;
+}
+
+.cart .discount input{
+  padding: 10px 30px;
+}
+
+
+/* Cart Page Component */
+
+/* Checkout Page component */
+.checkout-container{
+  /* border: 1px solid black; */
+  display: flex;
+  width: 70vw;
+  margin: auto;
+  justify-content: center;
+}
+
+.checkout-container .shippingandpayment{
+  width: 65%;
+}
+
+.shippingandpayment h2{
+  text-align: center;
+}
+.shippingandpayment p span{
+  color:  royalblue;
+}
+
+
+.shippingandpayment form .personal-info{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.shippingandpayment form .personal-info input {
+  width: 100%;
+}
+.shippingandpayment form .details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.shippingandpayment form input{
+  padding: 15px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.shippingandpayment form button{
+  width: 10vw;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+
+
+
+.checkout-container .cart-container{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* border: 1px solid black; */
+  margin-top: 0;
+}
+
+.cart-container h2{
+  color: gray;
+}
+
+.checkout-container .cart-container img{
+  width: 80px;
+  margin-right: 10px;
+}
+
+.checkout-container table tr{
+  display: flex;
+  justify-content: space-between;
+  width: 20vw;
+  align-items: center;
+}
+
+.checkout-container table .item-details{
+  display: flex;
+  align-items: flex-end;
+}
+
+.cart-container .summary .sub-summary{
+  display: flex;
+  width: 20vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.summary .sub-summary h4,
+.summary .sub-summary h3{
+  color: rgb(128, 128, 128);
+}
+
+.summary .sub-summary p{
+  font-size: large;
+  font-weight: 500;
+}
+
+
+/* Checkout Page component */
+
+/* Payment Page COmpnent */
+
+.elements{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.elements h2{
+  color:rgb(128, 128, 128, 90%) ;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 0.2rem;
+}
+
+.FormGroup{
+  border: 10px solid rgb(128, 128, 128, 20%);
+  margin-top: 20px;
+}
+
+
+
+/* Payment Page COmpnent */
+
+/* Footer Component */
+
+.App .footer-container{
+  width: 95vw;
+  margin: auto;
+}
+
+.footer-container .footer{
+  text-align: center;
+  color: rgb(128, 128, 128, 80%);
+}
+
+/* Footer Component */

@@ -1,0 +1,93 @@
+[
+    {
+        "name": "Addidas 8000",
+        "price": 200,
+        "color": ["black", "white"],
+        "category": ["men", "kids", "women"],
+        "img": {
+            "img1":"https://demo.sirv.com/demo/DSC001.jpg/adidas-superstar-white-shoe.jpg?w=300", 
+            "img2": "https://media.istockphoto.com/id/458068097/photo/adidas-superstar.jpg?s=612x612&w=0&k=20&c=cBTSduk5_pPHdQi-Qz_YgJrkceHM4Wk4oDww5O_vwaw=",
+            "img3": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enCA/Images/ca_ss21_originals_superstar_iwp_07132021-d_tcm185-718819.jpg"
+        }
+    },
+    {
+        "name": "Nike Runner",
+        "price": 450,
+        "color": [ "black"],
+        "category": ["men", "women"],
+        "img": {
+            "img1": "https://fellrnr.com/mediawiki/images/thumb/8/84/Nike_RN_Distance_2-top.jpg/300px-Nike_RN_Distance_2-top.jpg",
+            "img2": "https://fellrnr.com/mediawiki/images/thumb/8/83/Nike_RN_Distance_2-inside.jpg/300px-Nike_RN_Distance_2-inside.jpg",
+            "img3":"https://fellrnr.com/mediawiki/images/thumb/0/0f/Nike_RN_Distance_2-outside.jpg/300px-Nike_RN_Distance_2-outside.jpg" 
+        }
+    },
+    {
+        "name": "Addidas Retro",
+        "price": 250,
+        "color": ["black", "white"],
+        "category": ["men", "kids"],
+        "img": {
+            "img1": "https://media.istockphoto.com/id/458068097/photo/adidas-superstar.jpg?s=612x612&w=0&k=20&c=cBTSduk5_pPHdQi-Qz_YgJrkceHM4Wk4oDww5O_vwaw=",
+            "img2":"https://demo.sirv.com/demo/DSC001.jpg/adidas-superstar-white-shoe.jpg?w=300", 
+            "img3": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enCA/Images/ca_ss21_originals_superstar_iwp_07132021-d_tcm185-718819.jpg"
+        }
+    },
+    {
+        "name": "Nike 8080",
+        "price": 400,
+        "color": ["black", "white", "orange"],
+        "category": ["men", "kids", "women"],
+        "img": {
+            "img1":"https://static.nike.com/a/images/t_default/efcd8c98-87cd-4100-8db2-b18fde410d4f/air-max-1-womens-shoes-5lpQ5k.png", 
+            "img2": "https://www.highsnobiety.com/static-assets/thumbor/o6aohlso00OmkoIXrX9Tv0oPBd0=/1600x1067/www.highsnobiety.com/static-assets/wp-content/uploads/2022/09/02162708/nike-air_0002_nike-air-max-1-magma-orange-dz4709-001-release-date.jpg",
+            "img3": "https://houseofheat.co/app/uploads/2022/09/nike-air-max-1-magma-orange-dz4709-001-release-date-4.jpg"
+        }
+    },
+    {
+        "name": "Nike Air Pro M1",
+        "price": 400,
+        "color": ["black", "white", "orange"],
+        "category": ["men", "kids", "women"],
+        "img": {
+            "img1": "https://houseofheat.co/app/uploads/2022/09/nike-air-max-1-magma-orange-dz4709-001-release-date-4.jpg",
+            "img2": "https://www.highsnobiety.com/static-assets/thumbor/o6aohlso00OmkoIXrX9Tv0oPBd0=/1600x1067/www.highsnobiety.com/static-assets/wp-content/uploads/2022/09/02162708/nike-air_0002_nike-air-max-1-magma-orange-dz4709-001-release-date.jpg",
+            "img3":"https://static.nike.com/a/images/t_default/efcd8c98-87cd-4100-8db2-b18fde410d4f/air-max-1-womens-shoes-5lpQ5k.png"
+            
+        }
+    },
+     {
+        "name": "LV X Nike Force 1",
+        "price": 1050,
+        "color": [ "white"],
+        "category": ["men", "women"],
+        "img": {
+            "img1": "https://cassiuslife.com/wp-content/uploads/sites/47/2022/07/16577416638737.jpg?quality=80&strip=all&w=450&crop=0%2C0%2C100%2C300px",
+            "img2": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fwp-content%2Fblogs.dir%2F6%2Ffiles%2F2021%2F12%2Fvirgil-abloh-louis-vuitton-nike-air-force-1-release-tw.jpg?w=960&cbr=1&q=90&fit=max",
+            "img3":"http://d3ugyf2ht6aenh.cloudfront.net/stores/001/776/602/products/9c44891e1-952bed9340c06d8ea516557277374550-640-0.jpg"
+            
+        }
+    },
+    {
+        "name": "Nike Air Chess Board",
+        "price": 2050,
+        "color": [ "white"],
+        "category": ["men", "women"],
+        "img": {
+            "img1": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-69510,resizemode-1,msid-89480380/magazines/panache/200-pairs-of-louis-vuitton-x-nike-air-force-1-shoes-designed-by-virgil-abloh-fetch-25-million-at-sothebys-auction.jpg",
+            "img2": "https://footwearnews.com/wp-content/uploads/2022/01/louis-vuitton-nike-air-force-3.jpg?w=1024",
+            "img3":"http://d3ugyf2ht6aenh.cloudfront.net/stores/001/776/602/products/9c44891e1-952bed9340c06d8ea516557277374550-640-0.jpg"
+            
+        }
+    }, 
+    {
+        "name": "Nike Runner Pro",
+        "price": 550,
+        "color": [ "black"],
+        "category": ["men", "women"],
+        "img": {
+            "img1": "https://fellrnr.com/mediawiki/images/thumb/8/84/Nike_RN_Distance_2-top.jpg/300px-Nike_RN_Distance_2-top.jpg",
+            "img2": "https://fellrnr.com/mediawiki/images/thumb/8/83/Nike_RN_Distance_2-inside.jpg/300px-Nike_RN_Distance_2-inside.jpg",
+            "img3":"https://fellrnr.com/mediawiki/images/thumb/0/0f/Nike_RN_Distance_2-outside.jpg/300px-Nike_RN_Distance_2-outside.jpg" 
+        }
+    }
+]
