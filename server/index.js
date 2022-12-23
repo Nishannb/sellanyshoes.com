@@ -10,7 +10,7 @@ const app = express();
 
 const PORT = 8000;
 
-// const uri = 'mongodb+srv://ShoeStore:ShoeStore123@shoestorecluster.l8y4oey.mongodb.net/?retryWrites=true&w=majority'
+
 const uri = "mongodb://localhost:27017/ShoeStoreDB"
 
 mongoose.connect(uri)

@@ -6,6 +6,8 @@
 .pnp.js
 
 /server/.env
+/server/seed.js
+/server/seedData.json
 
 # testing
 /coverage
